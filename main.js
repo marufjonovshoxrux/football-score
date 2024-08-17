@@ -40,7 +40,9 @@ tameev_ball.ondragend = e => {
 	if (e.x >= 20 && e.x <= 110 && e.y >= 480 && e.y <= 630) {
 		alert('Goal Barca')
     alert('G.O.A.T')
-    messi('./img/messi.webp')
+    messi(
+			'https://storage.googleapis.com/com-daily-stickers.appspot.com/optimized/packs/T11AQvfeJxp0gaaPOKTn/stickers/r9SE5kZLhhdtiHBEjPaH/file/d04cb53b-fef5-4264-9f61-d80314352f74.webp'
+		)
     playMusic()
     setTimeout(() => {
 			location.reload()
@@ -48,7 +50,9 @@ tameev_ball.ondragend = e => {
 	} else if (e.x >= 1900 && e.x <= 2100 && e.y >= 480 && e.y <= 630) {
 		alert('Goal Real')
     alert('suiiii')
-    messi('./img/rolandopricole.jpg')
+    messi(
+			'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6gsSGSzmkOcyqpvDqq2EfVshOJBLbEorZMA&s'
+		)
     playMusic()
     setTimeout(() => {
 			location.reload()
